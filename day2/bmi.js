@@ -1,5 +1,5 @@
-const weight = 58;
-const height = 1.7;
+const weight = parseFloat(process.argv[2]);
+const height = parseFloat(process.argv[3]);
 
 const bmi = weight/(height*height);
 console.log(`BMI: ${bmi}`);
