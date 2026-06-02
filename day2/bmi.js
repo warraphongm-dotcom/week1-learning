@@ -12,4 +12,4 @@ if (bmi < 18.5 ){
   console.log("น้ำหนักเกิน");
 } else {
   console.log("น้ำหนักเกิน")
-}
+}//Hello bmi
